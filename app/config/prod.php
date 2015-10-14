@@ -13,10 +13,10 @@ $app['db.options'] = array(
 
     'port'     => '3306',
 
-    'dbname'   => 'cycloo',
+    'dbname'   => 'cycloo',   //nom de la base
 
-    'user'     => 'cycloo_user',
-
-    'password' => 'secret',
+    'user'     => 'cycloo_user',   // nom de l'utilisateur
+  
+    'password' => 'secret',   //mot de passe 
 
 );

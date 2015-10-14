@@ -4,7 +4,7 @@
 namespace Cycloo\Domain;
 
 
-class Bike
+class Bike   
 
 {
 

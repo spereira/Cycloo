@@ -1,5 +1,5 @@
 <?php
-
+// contrôleur frontal (dossier web : fichiers accessibles aux clients web) 
 
 require_once __DIR__.'/../vendor/autoload.php';
 
