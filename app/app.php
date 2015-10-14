@@ -1,15 +1,15 @@
 <?php
 
-//La première partie de ce fichier configure Silex pour gérer les erreurs PHP qui pourraient se produire pendant l'exécution de l'application
 
 use Symfony\Component\Debug\ErrorHandler;
 use Symfony\Component\Debug\ExceptionHandler;
 
-//La deuxième partie du fichier enregistre le fournisseur de services associé à DBAL, DoctrineServiceProvider.
+
 // Register global error and exception handlers
 
 ErrorHandler::register();
 ExceptionHandler::register();
+
 
 // Register service providers.
 

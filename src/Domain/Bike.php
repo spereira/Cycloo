@@ -9,42 +9,26 @@ class Bike
 {
 
     /**
-
      * bike id.
-
-     *
-
      * @var integer
-
      */
 
     private $id;
 
-
     /**
-
      * bike name.
-
-     *
-
      * @var string
-
      */
 
     private $name;
 
 
     /**
-
-     * bike content.
-
-     *
-
+     * bike description.
      * @var string
-
      */
 
-    private $content;
+    private $description;
 
 
     public function getId() {
@@ -75,16 +59,16 @@ class Bike
     }
 
 
-    public function getContent() {
+    public function getDescription() {
 
-        return $this->content;
+        return $this->description;
 
     }
 
 
-    public function setContent($content) {
+    public function setDescription($description) {
 
-        $this->content = $content;
+        $this->description = $description;
 
     }
 

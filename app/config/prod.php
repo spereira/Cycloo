@@ -20,5 +20,3 @@ $app['db.options'] = array(
     'password' => 'secret',
 
 );
-
-//Il s'agit du paramétrage de la connexion à la base de données via DBAL.

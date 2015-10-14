@@ -1,7 +1,8 @@
 <?php
+
 namespace Cycloo\DAO;
 use Doctrine\DBAL\Connection;
-use Cycloo\Domain\Bike;  //utilisation de la doctrine DAO au lieu de PDO
+use Cycloo\Domain\Bike;  
 class BikeDAO
 {
     /**
@@ -26,7 +27,7 @@ class BikeDAO
     public function findAll() {
         $sql = "select * from t_bike order by bike_id desc";
         $result = $this->db->fetchAll($sql);
-        
+
         // Convert query result to an array of domain objects
         $articles = array();
         foreach ($result as $row) {
@@ -40,7 +41,7 @@ class BikeDAO
         $bike = new Bike();
         $bike->setId($row['bike_id']);
         $bike->setName($row['bike_name']);
-        $bike->setContent($row['bike_description']);
+        $bike->setDescription($row['bike_description']);
         return $bike;
     }
 }

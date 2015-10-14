@@ -13,6 +13,3 @@ require __DIR__.'/../app/routes.php';
 
 
 $app->run();
-// require stoppe l'exécution avec une erreur fatale
-// include donne seulement un message d'erreur.
-// bonne pratiques : pas de fin de balises.
